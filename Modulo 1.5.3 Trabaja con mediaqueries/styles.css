@@ -1,0 +1,12 @@
+.box {
+    background: red;
+    height: 100px;
+}
+
+@media all and (min-width: 550px) {
+    .box {
+        background: blue;
+    }
+}
+
+/*si abrimos el simulador de dispositivos moviles siempre está azul, sin embargo si cambiamos las dimensiones de la ventana en el pc si cambia a rojo en su minimo tamaño, porque es 550px*/
